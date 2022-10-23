@@ -21,6 +21,7 @@ public class DemoProducerApplication implements CommandLineRunner {
         SpringApplication.run(DemoProducerApplication.class, args);
     }
 
+
     @Override
     public void run(String... args) {
         while(true){
